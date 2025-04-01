@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Main container for the Netflix-like layout -->
+    <div class="mainContainer">
+      <!-- Background section with overlay -->
+      <div class="bgContainer">
+        <div class="colorOverlay"></div>
+      </div>
+      <!-- Content Section -->
+      <div class="contentContainer">
+        <!-- Navigation bar -->
+        <nav class="navConatiner">
+          <div class="navbarSection">
+            <!-- Left section of the navbar -->
+            <div class="navbarLeftSection">
+              <img
+                src="assets/images/netflix-logo.png"
+                alt="Logo of Netflix"
+                class="netflixLogo"
+              />
+            </div>
+            <!-- Right section of the navbar -->
+            <div class="navbarRightSection">
+              <div class="navBarButtonContainer">
+                <div class="signIn">
+                  <button class="signinButton">Sign In</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- Banner section -->
+        <section class="bannerSection">
+          <div class="overlay"></div>
+          <div class="bannerContainer">
+            <h1>Unlimited movies, TV shows, and more</h1>
+            <h3>Starts at USD 2.99. Cancel anytime.</h3>
+            <p>
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </p>
+            <!-- Email input and Get Started button -->
+            <div class="callTOActionContainer">
+              <input
+                type="email"
+                placeholder="Email address"
+                class="emailBox"
+              />
+              <button class="getStartedButton">Get Started</button>
+            </div>
+          </div>
+        </section>
+        <!-- Carousel section -->
+        <section class="carouselSection">
+          <div class="carouselContainer">
+            <div class="carouselItems">
+              <div class="carouselItemNumberContainer"></div>
+              <div class="carouselItemImageContainer"></div>
+            </div>
+          </div>
+        </section>
+        <!-- Section highlighting reasons to join -->
+        <section class="reasonTOJOin"></section>
+        <!-- Frequently Asked Question (FAQ) section -->
+        <section class="faqSection"></section>
+        <!-- Section for getting started -->
+        <section class="getStartedSection"></section>
+        <!-- Footer Section -->
+        <footer></footer>
+      </div>
+    </div>
+  </body>
+</html>
