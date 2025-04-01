@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+}
+
+/* Background image container with blur effect */
+.bgContainer {
+  background-image: url(assets/images/bg-image.jpg);
+  height: 100vh;
+  filter: blur(16px); /* Applies blur effect to the background*/
+  position: relative;
+}
+
+/*color overlay to darkern the background image*/
+.colorOverlay {
+  background-color: rgba(143, 55, 69, 0.4);
+  height: 100%;
+  width: 100%;
+}
+.contentContainer {
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0rem 2rem;
+}
+nav {
+  height: 100%;
+}
+
+.navbarSection {
+  display: flex;
+  height: 50%;
+}
+
+.navbarLeftSection {
+  width: 50%;
+}
+
+.netflixLogo {
+  width: 28%;
+}
+.navbarRightSection {
+  padding: 0rem 1rem;
+  width: 50%;
+}
+
+/*Container for Sign In Button*/
+.navBarButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+/*Sign In Button Styling*/
+.signinButton {
+  background-color: rgb(206, 203, 203);
+  padding: 0.5rem 0.8rem;
+  font-weight: 525;
+  font-size: 1rem;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+
+/* Banner section with background image */
+.bannerSection {
+  height: 90vh;
+  background-image: url(assets/images/bg-image.jpg);
+  background-size: 100% 100%;
+  border-radius: 20px;
+  position: relative;
+}
+
+/* Overlay effect for the banner section */
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.4), rgb(0, 0, 0, 0.9));
+  border-radius: 35px;
+}
+
+/* Container for banner content */
+.bannerContainer {
+  height: 80%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main heading in banner */
+.bannerContainer h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  width: 45%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Subheading in banner */
+.bannerContainer h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/* Paragraph in banner */
+.bannerContainer p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+/* Container for email input and Get Started button */
+.callTOActionContainer {
+  width: 50%;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+/* Email input box styling */
+.emailBox {
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: 1px solid white;
+  outline: none;
+  width: 40%;
+  background-color: rgb(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 1rem;
+}
+.emailBox::placeholder {
+  color: #fff;
+}
+.callTOActionContainer input {
+  margin-left: 7rem;
+}
+/* Get Started button Styling */
+.getStartedButton {
+  width: 30%;
+  background-color: red;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 900;
+}
